@@ -117,10 +117,15 @@ a {
   font-size: 11px;
 }
 
-.contact-info .items .row span ~ span{
+.personal-info .row span:nth-child(2){
   font-weight: bold;
 }
 
+.personal-info .items .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 /* ====== Main ====== */
